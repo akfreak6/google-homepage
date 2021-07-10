@@ -1,0 +1,220 @@
+body{
+    font-size: 14px;
+font-family: arial,sans-serif;
+color: #222;
+margin: 0px 0px;
+}
+#apps{
+    position: relative;
+    display: inline-block;
+    
+}
+#apps:hover{
+    background-color: rgba(60,64,67,0.08);
+    cursor: pointer;
+    outline: none;
+    border-radius: 50%;
+}
+#apps:focus{
+    opacity: 1;
+}
+.logo{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+.padimg{
+    height: 135px;
+}
+.padsearch{
+    height: 35px;
+}
+
+.searchbar{
+    margin: 0 auto;
+    width: auto; 
+    width: 584px; 
+    border: 1px solid #dfe1e5; 
+    height: 44px; 
+    border-radius: 24px;
+    display: flex;
+}
+.searchbar:hover{
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+border-color: rgba(223,225,229,0);
+}
+ .searchbox {
+    margin-bottom: 80px;
+    margin-right:20px;
+    border: none;
+    width: 500px;
+    height: 37px;
+    outline: none;
+    font-size: 15px;
+}
+.searchsvg{
+    /* width: 20px; */
+    flex: .65;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.navunder{
+    cursor: pointer;
+}
+.navunder:hover{
+    text-decoration:underline;
+}
+.userimg .hoveruser{
+    visibility: hidden;
+    width: auto;
+    background-color:rgba(60,64,67,0.90);
+    color: #b8bcc2;
+    text-align: left;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font: 500 12px 'Roboto',arial,sans-serif;
+    letter-spacing: .8px;
+    /* line-height: 16px;
+    margin-top: 4px; */
+    min-height: auto;
+    z-index: 1000;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    margin-top: 10px;
+    margin-left: -100px;
+}
+.userimg:hover .hoveruser{
+    visibility: visible;
+    transition-delay: .5s;
+}
+.material-icons .hoveff{
+    visibility: hidden;
+    width: auto;
+    background-color:rgba(60,64,67,0.90);
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font: 500 12px 'Roboto',arial,sans-serif;
+    letter-spacing: .8px;
+    line-height: 16px;
+    margin-top: 10px;
+    /* min-height: 14px; */
+    z-index: 1000;
+    
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+.material-icons:hover .hoveff{
+    visibility: visible;
+    transition-delay: .5s;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;  /* Preferred icon size */
+    line-height: 1;
+  position: relative;
+  display: inline-block;
+    /* text-transform: none;
+    display: inline-block;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr; */
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+  ul{font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;}
+  li{
+      display: inline;
+      float: right;
+      display: block;
+      padding: 5px;
+  }
+  .userimg{
+    position: relative;
+    display: inline-block;
+  }
+.userimg img{
+    height: 32px;
+    width: 32px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+}
+img{
+    display: block;
+}
+.inputsearch{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.inputsearch:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.inputsearchpad{
+    padding-top: 18px;
+    height: 70px;
+}
+.spaceaftersearch{
+   padding-bottom: 275px;
+}
+.foot{
+    background: #f2f2f2;
+    justify-content: space-evenly;
+    clear: both;
+    height: 55px;
+}
+a.footcon{
+    color: #70757a;
+    text-decoration: none;
+}
+a.footcon:hover{
+    text-decoration: underline;
+}
+.footcon{
+    display: inline-block;
+    padding: 20px 15px;
+    white-space: nowrap;
+    justify-content: space-evenly;
+}
+.footleft{
+    position: fixed;
+    left: 20px;
+}
+.footright{
+    position: fixed;
+    right: 20px;
+}
